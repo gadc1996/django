@@ -9,11 +9,13 @@
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.black-formatter",
+				"batisteo.vscode-django",
 				"GitHub.copilot-chat"
 			]
 		}
 	},
 	"overrideCommand": true,
-	"postCreateCommand": "make setup"
-	
+	"postCreateCommand": "make setup",
 }
